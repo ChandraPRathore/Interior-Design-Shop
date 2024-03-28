@@ -1,0 +1,45 @@
+.Menu{
+    background-color: rgb(255, 254, 198);
+    display: flex;
+    justify-content: space-between;
+}
+.Name{
+    font-family: Vivaldi, "Comic Sans", cursive;
+    font-size: 1.5em;
+    position: relative;
+    top: -2em;
+    display: flex;
+    
+}
+.Ga{
+    position: relative;
+    top: -0.7em;
+    font-size: 2em;
+    color: rgb(255, 100, 38);
+    animation-name: Ga;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes Ga {
+    0%   {color:rgb(255, 100, 38); left:0px; top:0px;}
+    25%  {color:rgb(255, 100, 38); left:1500px; top:0px;}
+  
+    100% {color:rgb(255, 100, 38); left:0px; top:0px;}
+  }
+.ali{
+    position: relative;
+    margin-top: 1em;
+    color: rgb(235, 171, 9);
+}
+.Index ul{
+    display: flex;
+    gap: 2.5em;
+    margin-right: 2em;
+    
+}
+.Index ul li{
+    list-style: none;
+    font-family: Vivaldi, "Comic Sans", cursive;
+    font-size: 1.3em;
+    margin-top: 0.5em;
+}

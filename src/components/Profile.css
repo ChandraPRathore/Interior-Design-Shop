@@ -1,0 +1,27 @@
+.contain{
+    display: flex;
+
+}
+.rightcontain{
+    
+    display: grid;
+    gap: 7em;
+}
+.leftcontain{
+    background-image: url(contain3img.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 1000px; */
+    
+    font-family: Vivaldi, "Comic Sans", cursive;
+    /* margin-top: 5em; */
+    margin-right: 5em;
+    /* text-align: center; */
+    font-weight: bold;
+    color: black;
+    /* margin-bottom: 20em; */
+}
+@media (prefers-reduced-motion: no-preference) {
+    .rightcontain  {
+      animation: App-logo-spin  10s linear;
+    }
+  }
